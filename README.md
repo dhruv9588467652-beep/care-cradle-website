@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Care & Cradle | Baby & Home Essentials</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#fff8f5;
+}
+
+header{
+background:#ff6b81;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+header h1{
+font-size:28px;
+}
+
+nav{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+background:#333;
+}
+
+nav a{
+color:white;
+padding:12px 15px;
+text-decoration:none;
+}
+
+nav a:hover{
+background:#ff6b81;
+}
+
+.hero{
+text-align:center;
+padding:40px 20px;
+background:#ffeef2;
+}
+
+.hero h2{
+font-size:30px;
+margin-bottom:10px;
+}
+
+.hero button{
+padding:10px 20px;
+background:#ff6b81;
+color:white;
+border:none;
+border-radius:5px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.product{
+background:white;
+border-radius:10px;
+padding:15px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.product img{
+width:100%;
+border-radius:8px;
+}
+
+.product h3{
+margin:10px 0;
+}
+
+.product button{
+background:#ff6b81;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:5px;
+}
+
+.about{
+padding:40px;
+text-align:center;
+}
+
+.contact{
+background:#ffeef2;
+padding:30px;
+text-align:center;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Care & Cradle</h1>
+<p>Baby & Home Essentials</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Baby Products</a>
+<a href="#">Kitchen</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+<h2>Safe Products for Baby & Home</h2>
+<p>Quality baby care and kitchen essentials</p>
+<button>Shop Now</button>
+</section>
+
+<section class="products">
+
+<div class="product">
+<img src="https://via.placeholder.com/200">
+<h3>Baby Feeding Bottle</h3>
+<p>₹299</p>
+<button>Order</button>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/200">
+<h3>Baby Blanket</h3>
+<p>₹499</p>
+<button>Order</button>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/200">
+<h3>Kitchen Storage Box</h3>
+<p>₹399</p>
+<button>Order</button>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/200">
+<h3>Silicone Baby Spoon</h3>
+<p>₹199</p>
+<button>Order</button>
+</div>
+
+</section>
+
+<section class="about">
+<h2>About Care & Cradle</h2>
+<p>We provide trusted baby products and useful kitchen essentials for every home.</p>
+</section>
+
+<section class="contact">
+<h2>Contact Us</h2>
+<p>WhatsApp us to place your order</p>
+</section>
+
+<footer>
+<p>© 2026 Care & Cradle | All Rights Reserved</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX?text=Hello%20I%20want%20to%20order%20from%20Care%20%26%20Cradle">
+💬 Order on WhatsApp
+</a>
+
+</body>
+</html>
